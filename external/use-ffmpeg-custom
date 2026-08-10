@@ -7,4 +7,7 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-scripts/switch-branch ffmpeg "@$1"
+# test-hls-8.0 branch: force FFmpeg n8.0 regardless of the argument
+# passed by the workflow (which still says n7.1.5). Only the FFmpeg
+# version changes; the rest of the official build chain is untouched.
+scripts/switch-branch ffmpeg "@n8.0"
