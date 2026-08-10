@@ -127,7 +127,7 @@ jobs:
         ./use-rubberband-master
         ./use-libdisplay-info-master
         ./use-dav1d-custom 1.5.4
-        ./use-ffmpeg-custom n7.1.5
+        ./use-ffmpeg-custom n8.0
         ./use-libass-master
         ./use-libplacebo-custom 4c426e466814536def653cb23f1d1c287ea7a7f5
         ./use-mpv-custom f011d73d5fcf3f1907bbd6ddde3e860e3d611cf9
